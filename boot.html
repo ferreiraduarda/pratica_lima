@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5; url=welcome.html"> 
+    <title>Boot Screen</title>
+  <style>
+      body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  opacity: 0.85;
+  margin-bottom: 100px;
+}
+.loading {
+  width: 40px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="boot">
+    <img src="images/windows-11.png" alt="Logo Windows 11" class="logo" />
+  </div>
+  <div class="loading">
+  <img src="images/Rolling@1x-3.3s-200px-200px.svg" alt="Carregando..." class="loading" />
+  </div>
+</body>
+</html>

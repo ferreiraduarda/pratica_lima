@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('images/windows11-default-wallpaper-scaled.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  height: 100vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.welcome-screen .info {
+  text-align: center;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+#hora {
+  font-size: 250px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 500;
+}
+
+#data {
+  font-size: 70px;
+  margin-top: 10px;
+  font-weight: 500;
+}
