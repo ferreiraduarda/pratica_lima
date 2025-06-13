@@ -1,14 +1,23 @@
 body {
-  margin: 0;
-  padding: 0;
-  background: url('images/windows11-default-wallpaper-scaled.jpg') no-repeat center center fixed;
-  background-size: cover;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
-  height: 100vh;
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    height: 100vh;
+    background-color: #1e20caeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    animation: fadeIn 2000ms ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .welcome-screen .info {
@@ -17,7 +26,7 @@ body {
 }
 
 #hora {
-  font-size: 250px;
+  font-size: 100px;
   font-weight: 400;
   text-align: center;
   margin-top: 100px;
@@ -25,7 +34,15 @@ body {
 }
 
 #data {
-  font-size: 70px;
+  font-size: px;
   margin-top: 10px;
   font-weight: 500;
+}
+
+.tela_welcome {
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(0.6);
+  height: 100%;
+  width: 100%;
 }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop</title>
+    <!-- <meta http-equiv="refresh" content="5; url=tela_azul.html"> -->
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-color: #000;
+            animation: 2000ms fadeIn;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body class="fadeIn">
+    <div class="desktop">
+        <div class="desktop-icons">
+            <div class="icon-item">
+                <img src="images/pasta.png" alt="Explorador de Arquivos">
+                <span>Explorador de Arquivos</span>
+            </div>
+            <div class="icon-item">
+                <img src="images/Chrome.svg" alt="Chrome">
+                <span>Google Chrome</span>
+            </div>
+            <div class="icon-item">
+               <img src="images/lixeira.png" alt="Lixeira">
+                <span>Lixeira</span>
+            </div>
+            <div class="icon-item">
+                <img src="images/Visual Studio Code (VS Code).svg" alt="VS Code">
+                <span>VS Code</span>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-desktop"></i>
+                <span>Este PC</span>
+            </div>
+            <div class="icon-item">
+                <img src="images/edge.svg" alt="Edge">
+                <span>Microsoft Edge</span>
+            </div>
+            </div>
+
+        <div class="taskbar">
+            <div class="taskbar-left"></div>
+
+            <div class="taskbar-center">
+                <div class="task-icon"><i class="fab fa-microsoft"></i></div>
+                <div class="task-icon"><i class="fas fa-store"></i></div>
+                <div class="task-icon active"><i class="fas fa-search"></i></div>
+                <div class="task-icon"> <img src="images/pasta.png" class="task-icon"></div>
+                <div class="task-icon"> <img src="images/edge.svg" class="task-icon"></div>
+                <div class="task-icon"> <img src="images/Chrome.svg" class="task-icon"></div>
+            </div>
+
+            <div class="taskbar-right">
+                <div class="system-tray">
+                    <span class="language">PT-BR</span>
+                    <span class="wifi-icon"><i class="fas fa-wifi"></i></span>
+                    <span class="volume-icon"><i class="fas fa-volume-up"></i></span>
+                    <span class="battery-icon"><i class="fas fa-battery-half"></i></span>
+                    <span class="time-date">14:08 <br> 13/06/2025</span> </div>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
